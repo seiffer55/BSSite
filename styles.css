@@ -21,7 +21,26 @@ body{
     right: 10px;
     bottom:30px;
     color:yellow;
+}
 .bottomleft:hover{
     color:white;
-    transition:ease-in;
+}
+.bottomright:hover{
+    color:white;
+}
+.center{
+    position: absolute;
+    text-align: center;
+    font-size: 22pt;
+    left:44%;
+    bottom: 50%;
+}
+body{
+    background-color:rgb(54, 54, 54);
+}
+hr{
+    border: none;
+    height:10px;
+    color:black;
+    background-color: red;
 }
