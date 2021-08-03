@@ -1,0 +1,27 @@
+.imageContainer{
+    position:relative;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+body{
+    background-color: rgba(12, 11, 11, 0.144);
+}
+.bottomleft{
+    position:absolute;
+    left: 10px;
+    bottom:30px;
+    color:yellow;
+}
+.bottomright{
+    position:absolute;
+    right: 10px;
+    bottom:30px;
+    color:yellow;
+.bottomleft:hover{
+    color:white;
+    transition:ease-in;
+}
