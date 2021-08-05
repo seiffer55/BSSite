@@ -38,7 +38,13 @@ hr{
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
   }
-  
+  nav a{
+    text-decoration: none;
+    color: gray;
+  }
+  nav a:hover{
+    text-decoration: underline;
+  }
   @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -61,6 +67,8 @@ hr{
     width: 100%;
     overflow: hidden;
     background-color:gold;
+    align-items: center;
+    text-align: center;
   }
 
   li {
@@ -69,3 +77,15 @@ hr{
       padding: 14px 16px;
       margin: 0 auto;
   }
+  .exp:after{content:"Experience"}
+  .exp:hover:after{content:"仕事";}
+  .abtme:after{content:"About Me"}
+  .abtme:hover:after{content:"私のこと";}
+  .name:after{content:"Brandon Skelton"}
+  .name:hover:after{content:"スケルトンさん";}
+  .fam:after{content:"My Family"}
+  .fam:hover:after{content:"私の家族";}
+  .hob:after{content:"Hobbies"}
+  .hob:hover:after{content:"趣味";}
+  .contact:after{content:"Contact"}
+  .contact:hover:after{content:"話しましょうか";}
