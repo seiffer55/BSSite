@@ -59,7 +59,12 @@ hr{
     padding-right: 10px;
     color: gray
   }
-  ul {
+  li{
+    padding-left:10px;
+    padding-right: 10px;
+    color: gray
+  }
+  nav ul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
@@ -71,7 +76,7 @@ hr{
     text-align: center;
   }
 
-  li {
+  nav li {
       display: inline-block;
       color:gray;      
       padding: 14px 16px;
