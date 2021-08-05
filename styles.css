@@ -10,24 +10,6 @@ h3{
 body{
     background-color: rgba(12, 11, 11, 0.144);
 }
-.bottomleft{
-    position:absolute;
-    left: 10px;
-    bottom:30px;
-    color:yellow;
-}
-.bottomright{
-    position:absolute;
-    right: 10px;
-    bottom:30px;
-    color:yellow;
-}
-.bottomleft:hover{
-    color:white;
-}
-.bottomright:hover{
-    color:white;
-}
 .center{
     position: absolute;
     text-align: center;
@@ -35,25 +17,20 @@ body{
     left:44%;
     bottom: 50%;
     text-shadow: khaki;
-    border: khaki 10px;
+    border: khaki 20px;
 }
 body{
     background-color:rgb(54, 54, 54);
 }
 hr{
     border: none;
-    height:10px;
+    height:40px;
     color:black;
     background-color: gold;
 }
 .pImage{
     float: left;
     height:300px;
-}
-td{
-    word-wrap: normal;
-    color:white;
-    padding-top:5px;
 }
 .centerglow {
     font-size: 80px;
@@ -70,4 +47,25 @@ td{
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+  }
+  p{
+    padding-left:10px;
+    padding-right: 10px;
+    color: gray
+  }
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color:gold;
+  }
+
+  li {
+      display: inline-block;
+      color:gray;      
+      padding: 14px 16px;
+      margin: 0 auto;
   }
