@@ -62,9 +62,7 @@ hr{
   li{
     padding-left:10px;
     padding-right: 10px;
-    color: gray;
-    list-style-type: none;
-    text-align: center;
+    color: gray
   }
   nav ul {
     display: inline-block;
@@ -83,7 +81,6 @@ hr{
       color:gray;      
       padding: 14px 16px;
       margin: 0 auto;
-      list-style-type: none;
   }
   .exp:after{content:"Experience"}
   .exp:hover:after{content:"仕事";}
@@ -97,6 +94,3 @@ hr{
   .hob:hover:after{content:"趣味";}
   .contact:after{content:"Contact"}
   .contact:hover:after{content:"話しましょうか";}
-  ul p{ 
-    text-align: center;
-  }
