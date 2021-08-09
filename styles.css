@@ -100,3 +100,9 @@ hr{
   ul p{ 
     text-align: center;
   }
+  img {
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
